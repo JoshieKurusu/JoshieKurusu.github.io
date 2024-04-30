@@ -358,7 +358,7 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
   content: "33%";
 }
 main .portfolio-experience {
-  height: 2175px;
+  height: 2450px;
   background: url("../img/bg-img/portfolio-section-bg-img.png") no-repeat center center/cover;
   background-blend-mode: overlay;
 }
@@ -842,9 +842,6 @@ footer .container-fluid p a {
   }
   main .welcome .container-fluid .welcome-text {
     padding-top: 58px;
-  }
-  main .portfolio-experience {
-    height: 2100px;
   }
   main .portfolio-experience .container-fluid .portfolio .portfolio-text {
     margin-bottom: 20px;
