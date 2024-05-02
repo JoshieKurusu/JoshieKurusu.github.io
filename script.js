@@ -53,7 +53,7 @@ function displayText() {
 const project_logo = gsap.utils.toArray('.project-logo');
 //The transition of the Project logo in the Home page
 project_logo.forEach((contain, index) => {
-  gsap.set(contain, {y: 50, opacity: 0});
+  gsap.set(contain, {y: 80});
   ScrollTrigger.create({
     id: index,
     trigger: contain,
@@ -62,7 +62,7 @@ project_logo.forEach((contain, index) => {
     markers: false,
     onEnter: () => {
       $(contain).addClass('inaction');
-      gsap.to(contain, {y: 0, opacity: 1});
+      gsap.to(contain, {y: 0});
     },
   })
 })

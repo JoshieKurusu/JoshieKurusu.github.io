@@ -12,11 +12,13 @@
     padding: 0
     box-sizing: border-box
 :root
-    --first-base-color: #FFFFFF
-    --second-base-color: #2D2D2D
-    --first-accent-color: #00D646
-    --second-accent-color: #BEC7D5
-    --third-accent-color: #324158
+    --first-base-color: #1F2833
+    --second-base-color: #FFFFFF
+    --first-accent-color: #49C5B6
+    --second-accent-color: #C5C6C7
+    --third-accent-color: #0B0C10
+    --fourth-accent-color: #45A29E
+    --fifth-accent-color: #939DAB
     --header-footer-color: #747A88
     --bg-color: #333B50
 .show
@@ -54,7 +56,7 @@ header
                     left: 0
                     opacity: 1
                     transform: rotate(0deg)
-                    background-color: var(--first-base-color)
+                    background-color: var(--second-base-color)
                     transition: .25s ease-in-out
                 .top-bar 
                     margin-top: 0
@@ -74,14 +76,14 @@ header
                 .top-bar
                     margin-top: -20px
                     transform: rotate(0deg)
-                    background-color: var(--first-base-color)
+                    background-color: var(--second-base-color)
                 .middle-bar
                     opacity: 1
                     filter: alpha(opacity=100)
                 .bottom-bar
                     margin-top: 20px
                     transform: rotate(0deg)
-                    background-color: var(--first-base-color)
+                    background-color: var(--second-base-color)
             .navbar-collapse
                 width: 100%
                 height: 100vh
@@ -98,20 +100,21 @@ header
                         .nav-link
                             padding: 12px 0
                             cursor: pointer
-                            color: var(--second-accent-color)
+                            color: var(--fifth-accent-color)
                             text-align: center
                             font-size: clamp(0.75rem, -0.595vw + 1.119rem, 1rem)
                             line-height: clamp(1.125rem, -0.893vw + 1.679rem, 1.5rem)
                             font-weight: 600
                             font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                            //font: normal 600 1rem/25.6px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+                            &:hover
+                                color: var(--second-accent-color)
                         .active
                             color: var(--first-accent-color)
 main
     // Home Page CSS
     .welcome
         height: 1029px
-        background: rgba(55, 65, 88, 0.3) url("../img/bg-img/Untitled-1.png") no-repeat center top / cover
+        background: url("../img/bg-img/welcome-bg-img.png") no-repeat center top / cover
         background-blend-mode: overlay
         .container-fluid
             height: 100%
@@ -122,27 +125,25 @@ main
                 margin: 0 auto
                 padding-top: 48px
                 h1
-                    color: var(--first-base-color)
+                    color: var(--second-base-color)
                     margin-bottom: 20px
                     font-size: clamp(2.438rem, 3.869vw + 1.664rem, 4.063rem)
                     line-height: clamp(3.608rem, 5.726vw + 2.462rem, 6.013rem)
                     font-weight: 600
                     font-family: 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                    //font: normal 600 2.438rem/62.4px 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                     span
                         color: var(--first-accent-color)
                 p
                     letter-spacing: 0.18em
                     margin: 0
-                    color: var(--first-base-color)
+                    color: var(--second-base-color)
                     font-size: clamp(1.5rem, 0vw + 1.5rem, 1.5rem)
                     line-height: clamp(2.7rem, 0vw + 2.7rem, 2.7rem)
                     font-weight: 400
                     font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                    //font: normal 400 1.5rem/38.4px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
     .professional
         height: 926px
-        background: rgba(3, 3, 22, 0.3) url("../img/bg-img/professional-section-bg-img.png") no-repeat 50% -10% / cover
+        background: url("../img/bg-img/professional-bg-img.png") no-repeat 50% -10% / cover
         background-blend-mode: overlay
         .container-fluid
             height: 100%
@@ -157,7 +158,7 @@ main
                 left: 50%
                 padding: 60px 0
                 border-radius: 0
-                background-color: var(--bg-color)
+                background-color: var(--first-base-color)
                 transform: translate(-50%, -72.2%)
                 img
                     width: 76px
@@ -172,24 +173,22 @@ main
                     flex: none
                     p
                         text-align: center
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(0.875rem, 0.149vw + 0.845rem, 0.938rem)
                         line-height: clamp(2.188rem, 0.372vw + 2.113rem, 2.344rem)
                         font-weight: 400
                         font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                        //font: normal 400 0.875rem/22.4px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                 .cv-dl-btn
                     width: 220px
                     margin: 0 auto
                     padding:  12.5px 0
                     border-radius: 0
                     border: 1px solid var(--first-accent-color)
-                    color: var(--first-base-color)
+                    color: var(--second-base-color)
                     font-size: clamp(0.875rem, 0vw + 0.875rem, 0.875rem)
                     line-height: clamp(1.313rem, 0vw + 1.313rem, 1.313rem)
                     font-weight: 400
                     font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                    //font: normal 400 0.875rem/22.4px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                     &:hover
                         background: var(--first-accent-color)
                         transition:  all 0.4s ease-in-out
@@ -206,23 +205,21 @@ main
                     width: 100%
                     h2
                         margin-bottom: 12px
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(1.375rem, 2.976vw + 0.78rem, 2.625rem)
                         line-height: clamp(1.788rem, 3.869vw + 1.014rem, 3.413rem)
                         font-weight: 600
                         font-family: 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                        //font: normal 600 1.375rem/35.2px 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         span
                             color: var(--second-accent-color)
                     p
                         margin: 0
                         letter-spacing: 0.18em
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(1.313rem, 0.446vw + 1.223rem, 1.5rem)
                         line-height: clamp(2.363rem, 0.804vw + 2.202rem, 2.7rem)
                         font-weight: 400
                         font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, sans-serif
-                        //font: normal 400 1.313rem/33.6px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                 .knowledge-progress
                     display: flex
                     flex-direction: column
@@ -301,7 +298,7 @@ main
                                     content: "33%"
     .portfolio-experience
         height: 2450px
-        background: url("../img/bg-img/portfolio-section-bg-img.png") no-repeat center center / cover
+        background: url("../img/bg-img/portfolio-bg-img.png") no-repeat center center / cover
         background-blend-mode: overlay
         .container-fluid
             padding: 37px 12px 24px
@@ -315,26 +312,23 @@ main
                     text-align: center
                     h2
                         margin-bottom: 10px
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(1.375rem, 2.976vw + 0.78rem, 2.625rem)
                         line-height: clamp(2.035rem, 4.405vw + 1.154rem, 3.885rem)
                         font-weight: 600
                         font-family: 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                        //font: normal 600 1.375rem/35.2px 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         span
                             color: var(--second-accent-color)
                     p
                         letter-spacing: 0.1em
                         width: 249px
                         margin: 0 auto
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(1.313rem, 0.446vw + 1.223rem, 1.5rem)
                         line-height: clamp(2.363rem, 0.804vw + 2.202rem, 2.7rem)
                         font-weight: 400
                         font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                        //font: normal 400 1.313rem/33.6px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         a
-                            pointer-events: none
                             letter-spacing: 0.1em
                             color: var(--second-accent-color)
                             text-decoration: none
@@ -373,12 +367,11 @@ main
                     margin-bottom: 24px
                     text-align: center
                     h2
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-size: clamp(1.375rem, 2.976vw + 0.78rem, 2.625rem)
                         line-height: clamp(2.035rem, 4.405vw + 1.154rem, 3.885rem)
                         font-weight: 600
                         font-family: 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                        //font: normal 600 1.375rem/35.2px 'Lulo Clean', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         span
                             color: var(--second-accent-color)
                 .experience-content
@@ -399,7 +392,7 @@ main
                             line-height: clamp(1.2rem, 0vw + 1.2rem, 1.2rem)
                         .company
                             margin-bottom: 12px
-                            color: var(--first-base-color)
+                            color: var(--second-base-color)
                             font-weight: 400
                             font-size: clamp(1.375rem, 0.298vw + 1.315rem, 1.5rem)
                             line-height: clamp(1.581rem, 0.342vw + 1.513rem, 1.725rem)
@@ -408,13 +401,13 @@ main
                             font-size: clamp(0.938rem, 0vw + 0.938rem, 0.938rem)
                             line-height: clamp(1.781rem, 0vw + 1.781rem, 1.781rem)
                             .role
-                                color: var(--first-base-color)
+                                color: var(--second-base-color)
                             .description
                                 color: var(--second-accent-color)
                                 margin: 0
     .contact
         height: 194px
-        background: rgba(3, 3, 22, 0.3) url("../img/bg-img/contact-bg-img.png") no-repeat 50% 0 / cover
+        background: url("../img/bg-img/contact-bg-img.png") no-repeat 50% 0 / cover
         background-blend-mode: overlay
         .container-fluid
             position: relative
@@ -429,14 +422,14 @@ main
                 left: 50%
                 transform: translate(-50%, -81.6%)
                 border-radius: 0
-                background-color: var(--bg-color)
+                background-color: var(--first-base-color)
                 text-align: center
                 .card-body
                     margin: 0 auto
                     padding: 0
                     .card-body-text
                         margin-bottom: 18px
-                        color: var(--first-base-color)
+                        color: var(--second-base-color)
                         font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         h4
                             width: 260px
@@ -482,25 +475,23 @@ main
                                 padding: 6px 0
                                 border-radius: 0
                                 background-color: var(--first-accent-color)
-                                color: var(--first-base-color)
+                                color: var(--second-base-color)
                                 font-size: clamp(0.938rem, 0vw + 0.938rem, 0.938rem)
                                 line-height: clamp(1.406rem, 0vw + 1.406rem, 1.406rem)
                                 font-weight: 400
                                 font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                                //font: normal 400 0.938rem/24px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                                 &:hover
-                                    background: var(--third-accent-color)
+                                    background: var(--first-base-color)
                                     transition:  all 0.3s ease-in-out
                             p
                                 margin: 6px 0 0
-                                color: var(--first-accent-color)
+                                color: var(--fourth-accent-color)
                                 opacity: 0
                                 transition: all 1s ease
                                 font-size: clamp(0.688rem, 0.595vw + 0.568rem, 0.938rem)
                                 line-height: clamp(0.825rem, 0.714vw + 0.682rem, 1.125rem)
                                 font-weight: 400
                                 font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-                                //font: normal 400 0.875rem/22.4px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                             .fade-in
                                 opacity: 1
                                 transition: all 1s ease
@@ -510,7 +501,7 @@ main
                         margin: 0 10px
                         i
                             font-size: 1.5rem
-                            color: var(--first-base-color)
+                            color: var(--second-base-color)
     // Portfolio Page CSS
     .portfolio-grid
         background-color: var(--bg-color)
@@ -530,20 +521,20 @@ main
                     position: relative
                     .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7
                         position: relative
-                        border: 1px solid var(--first-base-color)
+                        border: 1px solid var(--second-base-color)
                         span h6
                             position: absolute
                             top: 50%
                             left: 50%
                             opacity: 0
                             transform: translate(-50%, -50%)
-                            color: var(--first-base-color)
+                            color: var(--second-base-color)
                             font-size: clamp(0.938rem, 0vw + 0.938rem, 0.938rem)
                             line-height: clamp(1.875rem, 0vw + 1.875rem, 1.875rem)
                             font-weight: 400
                             font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         span a
-                            color: var(--bg-color)
+                            color: var(--first-base-color)
                             &:hover
                                 color: var(--second-base-color)
                             i
@@ -599,20 +590,20 @@ main
                     grid-gap: 0px
                     .project-8, .project-9, .project-10, .project-11, .project-12
                         position: relative
-                        border: 1px solid var(--first-base-color)
+                        border: 1px solid var(--second-base-color)
                         span h6
                             position: absolute
                             top: 50%
                             left: 50%
                             opacity: 0
                             transform: translate(-50%, -50%)
-                            color: var(--first-base-color)
+                            color: var(--second-base-color)
                             font-size: clamp(0.938rem, 0vw + 0.938rem, 0.938rem)
                             line-height: clamp(1.875rem, 0vw + 1.875rem, 1.875rem)
                             font-weight: 400
                             font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
                         span a
-                            color: var(--bg-color)
+                            color: var(--first-base-color)
                             &:hover
                                 color: var(--second-base-color)
                             i
@@ -674,7 +665,6 @@ footer
             line-height: clamp(1.05rem, -0.179vw + 1.161rem, 1.125rem)
             font-weight: 400
             font-family: 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-            //font: normal 400 0.938rem/24px 'Avenir Light', "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
             a
                 color: var(--second-accent-color)
 @media screen and (min-width: 375px)
@@ -740,6 +730,8 @@ footer
                         .nav-item .nav-link
                             padding: 9px 14px
                             font-weight: 400
+                            &:hover
+                                color: var(--second-accent-color)
     main
         // Home Page CSS
         .welcome 
