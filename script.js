@@ -41,15 +41,6 @@ links.forEach(item => {
   });
 });
 
-// Display Text When a Button is Clicked with
-function displayText() {
-  var text = document.querySelector(".success-msg");
-  text.classList.add("fade-in");
-  setTimeout(function() {
-    text.classList.remove("fade-in");
-  }, 3000) // Set time out to three seconds to account for the second the element fades in
-}
-
 const project_logo = gsap.utils.toArray('.project-logo');
 //The transition of the Project logo in the Home page
 project_logo.forEach((contain, index) => {
