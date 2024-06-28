@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="rxIcPJFBy8OCLzPWGseGKKYz5rnxDUu9p3Nf90D7z7g" />
         <title>Josh Marvey Cruz | Personal Portfolio</title>
-        <link rel="icon" href="./img/logo/J__Logo-BlueGreen-removebg.png">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="./img/logo/J__Logo-BlueGreen-removebg.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -15,46 +15,55 @@
     </head>
     <body>
         <header>
+            <!-- Navbar -->
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid d-md-flex justify-content-md-around justify-content-lg-start">
+                    <!-- Logo w/ Link -->
                     <a href="./index.html"><img src="./img/logo/J__Logo-BlueGreen-removebg.png" alt="Joshie"></a>
+                    <!-- Hamburger Menu Btn -->
                     <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler-icon top-bar"></span>
                         <span class="toggler-icon middle-bar"></span>
                         <span class="toggler-icon bottom-bar"></span>
                     </button>
+                    <!-- Navbar Menu -->
                     <div class="collapse-horizontal wrapper navbar-collapse collapse" id="navbarContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="./index.html#welcoming" class="nav-link">HOME</a></li>
-                            <li class="nav-item"><a href="./index.html#professional" class="nav-link">PROFESSIONAL</a></li>
-                            <li class="nav-item"><a href="./index.html#experience" class="nav-link">EXPERIENCE</a></li>
+                            <li class="nav-item"><a href="./index.html" class="nav-link">HOME</a></li>
+                            <li class="nav-item"><a href="#professional" class="nav-link">PROFESSIONAL</a></li>
+                            <li class="nav-item"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
                             <li class="nav-item"><a href="./portfolio.html" class="nav-link active">PORTFOLIO</a></li>
-                            <li class="nav-item"><a href="./index.html#contact" class="nav-link">CONTACT</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <main>
-            <!--Portfolio Section-->
+            <!-- Portfolio Page -->
             <section class="portfolio-grid">
                 <div class="container-fluid">
+                    <!-- 1st Row -->
                     <div class="grid-row-1">
+                        <!-- Projects 1-7 -->
                         <div class="row-1">
+                            <!-- Shopnest E-Commerce -->
                             <div class="project-1">
                                 <img src="./img/logo/ShopNest.png" alt="ShopNest">
                                 <span><h6>PROJECT</h6></span>
-                                <span><a href="https://joshiekurusu.github.io/Shopnest/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
+                                <span><a href="https://joshiekurusu.github.io/shopnest/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
                             </div>
+                            <!-- RF Online GameCP -->
                             <div class="project-2">
                                 <img src="./img/logo/RFOnline.png" alt="Rising Force Online">
                                 <span><h6>PROJECT</h6></span>
                                 <span><a href="https://joshiekurusu.github.io/rfonline.gamecp/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
                             </div>
+                            <!-- Clean Scene -->
                             <div class="project-3">
-                                <img src="" alt="">
+                                <img src="./img/logo/CleanScene.png" alt="Clean Scene">
                                 <span><h6>PROJECT</h6></span>
-                                <span><a href="" target="_blank"><i class="fa-solid fa-share"></i></a></span>
+                                <span><a href="https://joshiekurusu.github.io/cleanscene/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
                             </div>
                             <div class="project-4">
                                 <img src="" alt="">
@@ -78,12 +87,15 @@
                             </div>                            
                         </div>
                     </div>
+                    <!-- 2nd Row -->
                     <div class="grid-row-2">
+                        <!-- Projects 8-12 -->
                         <div class="row-2">
+                            <!-- Discord Clone -->
                             <div class="project-8">
                                 <img src="./img/logo/Discord-Clone.png" alt="Discord-Clone">
                                 <span><h6>PROJECT</h6></span>
-                                <span><a href="https://joshiekurusu.github.io/Discord.clone/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
+                                <span><a href="https://joshiekurusu.github.io/discord.clone/" target="_blank"><i class="fa-solid fa-share"></i></a></span>
                             </div>
                             <div class="project-9">
                                 <img src="" alt="">
@@ -112,9 +124,11 @@
         </main>
         <footer>
             <div class="container-fluid">
-                <a href="./index.html#welcome"><img src="./img/logo/J__Logo-BlueGreen-removebg.png" alt="Joshie"></a>
+                <!-- Logo w/ Home Link -->
+                <a href="#welcome"><img src="./img/logo/J__Logo-BlueGreen-removebg.png" alt="Joshie"></a>
+                <!-- Text w/ Wix Link -->
                 <div class="text">
-                    <p>&copy 2035 by Josh Marvey Cruz. Proudly created with <a href="https://www.wix.com/" target="_blank">Wix</a></p>
+                    <p>&copy 2035 by Josh Marvey Cruz. Proudly designed with <a href="https://www.wix.com/" target="_blank">Wix</a></p>
                 </div>
             </div>
         </footer>
