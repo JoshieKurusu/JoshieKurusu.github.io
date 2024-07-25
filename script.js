@@ -16,7 +16,7 @@ for (var i = 0; i < btn.length; i++) {
     if (current.length > 0) {
       current[0].className = current[0].className.replace(" active", "");
     }
-    //Add the active class to the current/clicked button
+    // Add the active class to the current/clicked button
     this.className += " active";
   });
 }
@@ -42,7 +42,7 @@ links.forEach(item => {
 });
 
 const project_logo = gsap.utils.toArray('.project-logo');
-//The transition of the Project logo in the Home page
+// The transition of the Project logo in the Home page
 project_logo.forEach((contain, index) => {
   gsap.set(contain, {y: 80});
   ScrollTrigger.create({
@@ -57,3 +57,15 @@ project_logo.forEach((contain, index) => {
     },
   })
 })
+
+// Display success message after submit the form
+const myForm = document.querySelector('#contact-form');
+const msg = document.querySelector(".success-msg");
+
+myForm.addEventListener('submit', onSubmit);
+
+function onSubmit(event) {
+  event.preventDefault();
+  msg.style.display = "block";
+  setTimeout(() => msg.style.display = "none", 2000)
+}
