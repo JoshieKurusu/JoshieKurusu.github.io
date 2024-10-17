@@ -69,7 +69,7 @@ navigationLink.forEach(navLinks => {
     });
 });
 // IF THE PAGE IS IN THE PORTFOLIO ADD ACTIVE CLASS IN NAVIGATION LINK
-if(window.location == 'https://joshmarveycruz.netlify.app/portfolio') {
+if(window.location == 'https://joshmarveycruz.netlify.app/portfolio.html') {
     document.getElementById('3').classList.add('active');
 }
 else if(window.location == 'https://joshiekurusu.github.io/portfolio.html') {
