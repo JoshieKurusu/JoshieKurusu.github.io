@@ -1,7 +1,2 @@
-# JoshieKurusu.github.io
-Personal Portfolio
-
 # Description
-Showcasing my Projects in Portfolio Section
-
-I used HTML, CSS (SASS), Boostrap framework, and JavaScript
+A showcase of my work, skills, and projects. Built with HTML, CSS (SASS - CSS Preprocessor), Bootstrap framework, and JavaScript. Features a clean, responsive design and smooth user experience.
