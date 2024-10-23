@@ -9,7 +9,7 @@ class Header extends HTMLElement {
                 <nav class="navbar navbar-expand-md">
                     <div class="container-fluid d-md-flex justify-content-md-around justify-content-lg-start">
                         <!-- LOGO WITH HOME LINK -->
-                        <a href="./index.html"><img src="./img/logo/J__Logo-BlueGreen-removebg.png" alt="Joshie"></a>
+                        <a href="./index.html"><img src="./img/logo/J-Logo-BlueGreen.png" alt="Joshie"></a>
                         <!-- HAMBURGER MENU BUTTON/MOBILE MENU BUTTON -->
                         <button class="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon top-bar"></span>

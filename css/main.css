@@ -142,7 +142,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .active {
 
 main .welcome {
   height: 1029px;
-  background: url("../img/bg-img/welcome-bg-img.png") no-repeat center top/cover;
+  background: url("../img/bg-img/welcome-bg-img.webp") no-repeat center top/cover;
   background-blend-mode: overlay;
 }
 main .welcome .container-fluid {
@@ -177,7 +177,7 @@ main .welcome .container-fluid .welcome-text p {
 }
 main .professional {
   height: 926px;
-  background: url("../img/bg-img/professional-bg-img.png") no-repeat 50% -10%/cover;
+  background: url("../img/bg-img/professional-bg-img.webp") no-repeat 50% -10%/cover;
   background-blend-mode: overlay;
 }
 main .professional .container-fluid {
@@ -321,10 +321,10 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
   font-family: "Avenir Light", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar {
-  width: 28%;
+  width: 18%;
 }
 main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar span::after {
-  content: "28%";
+  content: "18%";
 }
 main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .python-progress-bar {
   width: 23%;
@@ -364,7 +364,7 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
 }
 main .portfolio-experience {
   height: 2450px;
-  background: url("../img/bg-img/portfolio-bg-img.png") no-repeat center center/cover;
+  background: url("../img/bg-img/portfolio-bg-img.webp") no-repeat center center/cover;
   background-blend-mode: overlay;
 }
 main .portfolio-experience .container-fluid {
@@ -496,7 +496,7 @@ main .portfolio-experience .container-fluid .experience .experience-content .fir
 }
 main .contact {
   height: 194px;
-  background: url("../img/bg-img/contact-bg-img.png") no-repeat 50% 0/cover;
+  background: url("../img/bg-img/contact-bg-img.webp") no-repeat 50% 0/cover;
   background-blend-mode: overlay;
 }
 main .contact .container-fluid {
