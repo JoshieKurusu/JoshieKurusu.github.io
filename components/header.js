@@ -72,6 +72,9 @@ navigationLink.forEach(navLinks => {
 if(window.location == 'https://joshmarveycruz.netlify.app/portfolio' || window.location == 'https://joshmarveycruz.netlify.app/portfolio.html' || window.location == 'https://joshiekurusu.github.io/portfolio.html' || window.location == 'http://127.0.0.1:5501/portfolio.html') {
     document.getElementById('3').classList.add('active');
 }
+else if(window.location == 'https://joshmarveycruz.netlify.app/') {
+    document.getElementById('0').classList.add('active');
+}
 else {
-    document.getElementById('3').classList.remove('active');
+    navigationLink.forEach(navLink => navLink.classList.remove('active'));
 }
