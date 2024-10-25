@@ -40,6 +40,43 @@ class Header extends HTMLElement {
 }
 customElements.define('header-component', Header);
 
+// CHECK THE INNER WIDTH OF THE BROWSER AND WHEN THE MOBILE MENU APPEAR AND RESIZE TO 768PX ABOVE THE MOBILE MENU WILL CLOSE
+function windowWidth() {
+    let windowInnerWidth = window.innerWidth;
+    if(windowInnerWidth >= 768) {
+        document.body.classList.toggle('show');
+        sidebar.classList.toggle('show');
+        button.classList.toggle('collapsed');
+    }
+}
+
+// REMOVE THE SCROLL OF THE BROWSER WHEN THE MOBILE MENU CLICKED
+const mobileMenuBtn = document.querySelector(".navbar-toggler");
+mobileMenuBtn.addEventListener('click', () => document.body.classList.toggle("show"));
+
+// CLOSE THE SIDEBAR MENU WHEN THE NAVBAR LINKS ARE CLICKED
+const navbarMenu = document.getElementById('navbarContent');
+const links = document.querySelectorAll('ul li a');
+links.forEach(link => {
+    link.addEventListener('click', (event) => {
+        navbarMenu.classList.toggle('show');
+        mobileMenuBtn.classList.toggle("collapsed");
+        if (document.body.classList.contains("show")) {
+            document.body.classList.remove("show");
+        }
+        else if (navbarMenu.classList.contains("show")) {
+            navbarMenu.classList.remove("show");
+        }
+        else if (mobileMenuBtn.classList.add("collapsed")) {
+            event.stopPropagation();
+        }
+        else {
+            return links;
+        }
+    });
+});
+
+// ADD ACTIVE CLASS TO THE CURRENT/CLICKED BUTTON
 const navigationLink = document.querySelectorAll('.nav-link');
 navigationLink.forEach(navLinks => {
     navLinks.addEventListener('click', (event) => {
@@ -68,7 +105,7 @@ navigationLink.forEach(navLinks => {
         }
     });
 });
-// IF THE PAGE IS IN THE PORTFOLIO ADD ACTIVE CLASS IN NAVIGATION LINK
+// IF THE PAGE IS IN THE PORTFOLIO ADD ACTIVE CLASS IN PORTFOLIO NAVIGATION LINK
 if(window.location == 'https://joshmarveycruz.netlify.app/portfolio' || window.location == 'https://joshmarveycruz.netlify.app/portfolio.html' || window.location == 'https://joshiekurusu.github.io/portfolio.html' || window.location == 'http://127.0.0.1:5501/portfolio.html') {
     document.getElementById('3').classList.add('active');
 }

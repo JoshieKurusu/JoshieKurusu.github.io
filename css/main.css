@@ -29,12 +29,12 @@
   --bg-color: #333B50;
 }
 
-.show {
-  overflow: hidden;
-}
-
 body {
   scroll-behavior: smooth;
+}
+
+.show {
+  overflow: hidden;
 }
 
 header {
