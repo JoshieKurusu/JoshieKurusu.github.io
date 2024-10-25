@@ -45,8 +45,8 @@ function windowWidth() {
     let windowInnerWidth = window.innerWidth;
     if(windowInnerWidth >= 768) {
         document.body.classList.toggle('show');
-        sidebar.classList.toggle('show');
-        button.classList.toggle('collapsed');
+        navbarMenu.classList.toggle('show');
+        mobileMenuBtn.classList.toggle('collapsed');
     }
 }
 
