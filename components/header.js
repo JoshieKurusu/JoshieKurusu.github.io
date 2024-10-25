@@ -44,9 +44,9 @@ customElements.define('header-component', Header);
 function windowWidth() {
     let windowInnerWidth = window.innerWidth;
     if(windowInnerWidth >= 768) {
-        document.body.classList.toggle('show');
-        navbarMenu.classList.toggle('show');
-        mobileMenuBtn.classList.toggle('collapsed');
+        document.body.classList.remove('show');
+        navbarMenu.classList.remove('show');
+        mobileMenuBtn.classList.add('collapsed');
     }
 }
 
@@ -59,8 +59,8 @@ const navbarMenu = document.getElementById('navbarContent');
 const links = document.querySelectorAll('ul li a');
 links.forEach(link => {
     link.addEventListener('click', (event) => {
-        navbarMenu.classList.toggle('show');
-        mobileMenuBtn.classList.toggle("collapsed");
+        navbarMenu.classList.remove('show');
+        mobileMenuBtn.classList.add("collapsed");
         if (document.body.classList.contains("show")) {
             document.body.classList.remove("show");
         }
