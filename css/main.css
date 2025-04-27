@@ -273,7 +273,7 @@ main .professional .container-fluid .profession .knowledge-progress {
   justify-content: flex-start;
   gap: 9px 0;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop label, main .professional .container-fluid .profession .knowledge-progress .python label, main .professional .container-fluid .profession .knowledge-progress .wix label, main .professional .container-fluid .profession .knowledge-progress .javascript label, main .professional .container-fluid .profession .knowledge-progress .html-css label, main .professional .container-fluid .profession .knowledge-progress .bootstrap label, main .professional .container-fluid .profession .knowledge-progress .tailwindcss label {
+main .professional .container-fluid .profession .knowledge-progress .photoshop label, main .professional .container-fluid .profession .knowledge-progress .react label, main .professional .container-fluid .profession .knowledge-progress .wix label, main .professional .container-fluid .profession .knowledge-progress .javascript label, main .professional .container-fluid .profession .knowledge-progress .html-css label, main .professional .container-fluid .profession .knowledge-progress .bootstrap label, main .professional .container-fluid .profession .knowledge-progress .tailwindcss label {
   margin-bottom: -5px;
   letter-spacing: 0.05em;
   color: var(--second-accent-color);
@@ -282,13 +282,13 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop l
   font-weight: 400;
   font-family: "Avenir Light", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress, main .professional .container-fluid .profession .knowledge-progress .python .progress, main .professional .container-fluid .profession .knowledge-progress .wix .progress, main .professional .container-fluid .profession .knowledge-progress .javascript .progress, main .professional .container-fluid .profession .knowledge-progress .html-css .progress, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress, main .professional .container-fluid .profession .knowledge-progress .react .progress, main .professional .container-fluid .profession .knowledge-progress .wix .progress, main .professional .container-fluid .profession .knowledge-progress .javascript .progress, main .professional .container-fluid .profession .knowledge-progress .html-css .progress, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress {
   width: 100%;
   margin: 0 auto;
   background-color: transparent;
   border-radius: 0;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar {
   height: 16px;
   background: transparent;
   position: relative;
@@ -297,7 +297,7 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
   transform-origin: left;
   overflow: visible;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .python .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .react .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span {
   height: 100%;
   width: 85%;
   background: var(--first-accent-color);
@@ -306,7 +306,7 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
   transform-origin: left;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span::after {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span::after {
   position: absolute;
   right: -36px;
   top: -11px;
@@ -320,50 +320,50 @@ main .professional .container-fluid .profession .knowledge-progress .photoshop .
   font-weight: 400;
   font-family: "Avenir Light", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar {
-  width: 18%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar {
+  width: 20%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar span::after {
-  content: "18%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .photoshop-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .photoshop-progress-bar span::after {
+  content: "20%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .python-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .python-progress-bar {
-  width: 23%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .react-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .react-progress-bar {
+  width: 13%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .python-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .python-progress-bar span::after {
-  content: "23%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .react-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .react-progress-bar span::after {
+  content: "13%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .wix-progress-bar {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .wix-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .wix-progress-bar {
   width: 56%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .wix-progress-bar span::after {
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .wix-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .wix-progress-bar span::after {
   content: "56%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .javascript-progress-bar {
-  width: 38%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .javascript-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .javascript-progress-bar {
+  width: 44%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .javascript-progress-bar span::after {
-  content: "38%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .javascript-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .javascript-progress-bar span::after {
+  content: "44%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .html-css-progress-bar {
-  width: 66%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .html-css-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .html-css-progress-bar {
+  width: 68%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .html-css-progress-bar span::after {
-  content: "66%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .html-css-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .html-css-progress-bar span::after {
+  content: "68%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .bootstrap-progress-bar {
-  width: 47%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .bootstrap-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .bootstrap-progress-bar {
+  width: 46%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .bootstrap-progress-bar span::after {
-  content: "47%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .bootstrap-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .bootstrap-progress-bar span::after {
+  content: "46%";
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .python .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .tailwindcss-progress-bar {
-  width: 36%;
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .react .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .wix .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .tailwindcss-progress-bar, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .tailwindcss-progress-bar {
+  width: 40%;
 }
-main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .tailwindcss-progress-bar span::after {
-  content: "36%";
+main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .tailwindcss-progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .tailwindcss-progress-bar span::after {
+  content: "40%";
 }
 main .portfolio-experience {
-  height: 2450px;
+  height: 3058px;
   background: url("../img/bg-img/portfolio-bg-img.webp") no-repeat center center/cover;
   background-blend-mode: overlay;
 }
@@ -460,12 +460,12 @@ main .portfolio-experience .container-fluid .experience .experience-text h2 span
 main .portfolio-experience .container-fluid .experience .experience-content .middle-icon {
   display: none;
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp, main .portfolio-experience .container-fluid .experience .experience-content .second-exp {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp, main .portfolio-experience .container-fluid .experience .experience-content .second-exp, main .portfolio-experience .container-fluid .experience .experience-content .third-exp {
   max-width: 440px;
   margin: 16px auto 0;
   font-family: "Avenir Light", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .year {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .year {
   width: 100%;
   color: var(--first-accent-color);
   margin-bottom: 10px;
@@ -475,22 +475,22 @@ main .portfolio-experience .container-fluid .experience .experience-content .fir
   font-size: clamp(1rem, 0vw + 1rem, 1rem);
   line-height: clamp(1.2rem, 0vw + 1.2rem, 1.2rem);
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .company {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .company {
   margin-bottom: 12px;
   color: var(--second-base-color);
   font-weight: 400;
   font-size: clamp(1.375rem, 0.298vw + 1.315rem, 1.5rem);
   line-height: clamp(1.581rem, 0.342vw + 1.513rem, 1.725rem);
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .job {
   font-weight: 400;
   font-size: clamp(0.938rem, 0vw + 0.938rem, 0.938rem);
   line-height: clamp(1.781rem, 0vw + 1.781rem, 1.781rem);
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job .role, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job .role {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job .role, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job .role, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .job .role {
   color: var(--second-base-color);
 }
-main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job .description, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job .description {
+main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job .description, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job .description, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .job .description {
   color: var(--second-accent-color);
   margin: 0;
 }
@@ -952,22 +952,22 @@ footer .container-fluid p a {
   main .professional .container-fluid .profession .knowledge-progress {
     gap: 14px 0;
   }
-  main .professional .container-fluid .profession .knowledge-progress .photoshop, main .professional .container-fluid .profession .knowledge-progress .python, main .professional .container-fluid .profession .knowledge-progress .wix, main .professional .container-fluid .profession .knowledge-progress .javascript, main .professional .container-fluid .profession .knowledge-progress .html-css, main .professional .container-fluid .profession .knowledge-progress .bootstrap, main .professional .container-fluid .profession .knowledge-progress .tailwindcss {
+  main .professional .container-fluid .profession .knowledge-progress .photoshop, main .professional .container-fluid .profession .knowledge-progress .react, main .professional .container-fluid .profession .knowledge-progress .wix, main .professional .container-fluid .profession .knowledge-progress .javascript, main .professional .container-fluid .profession .knowledge-progress .html-css, main .professional .container-fluid .profession .knowledge-progress .bootstrap, main .professional .container-fluid .profession .knowledge-progress .tailwindcss {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 0 26px;
   }
-  main .professional .container-fluid .profession .knowledge-progress .photoshop label, main .professional .container-fluid .profession .knowledge-progress .python label, main .professional .container-fluid .profession .knowledge-progress .wix label, main .professional .container-fluid .profession .knowledge-progress .javascript label, main .professional .container-fluid .profession .knowledge-progress .html-css label, main .professional .container-fluid .profession .knowledge-progress .bootstrap label, main .professional .container-fluid .profession .knowledge-progress .tailwindcss label {
+  main .professional .container-fluid .profession .knowledge-progress .photoshop label, main .professional .container-fluid .profession .knowledge-progress .react label, main .professional .container-fluid .profession .knowledge-progress .wix label, main .professional .container-fluid .profession .knowledge-progress .javascript label, main .professional .container-fluid .profession .knowledge-progress .html-css label, main .professional .container-fluid .profession .knowledge-progress .bootstrap label, main .professional .container-fluid .profession .knowledge-progress .tailwindcss label {
     width: 134px;
     text-align: right;
   }
-  main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .python .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span::after {
+  main .professional .container-fluid .profession .knowledge-progress .photoshop .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .react .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .wix .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .javascript .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .html-css .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .bootstrap .progress .progress-bar span::after, main .professional .container-fluid .profession .knowledge-progress .tailwindcss .progress .progress-bar span::after {
     right: -50px;
   }
   main .portfolio-experience {
-    height: 1700px;
+    height: 2327px;
   }
   main .portfolio-experience .container-fluid {
     padding: 0;
@@ -1011,24 +1011,21 @@ footer .container-fluid p a {
     grid-template-rows: repeat(auto, 1fr);
     grid-column-gap: 7px;
   }
-  main .portfolio-experience .container-fluid .experience .experience-content .first-exp, main .portfolio-experience .container-fluid .experience .experience-content .second-exp {
+  main .portfolio-experience .container-fluid .experience .experience-content .first-exp, main .portfolio-experience .container-fluid .experience .experience-content .second-exp, main .portfolio-experience .container-fluid .experience .experience-content .third-exp {
     width: 311px;
     height: auto;
     margin: 10px auto 0;
   }
-  main .portfolio-experience .container-fluid .experience .experience-content .first-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .year {
+  main .portfolio-experience .container-fluid .experience .experience-content .first-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .year, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .year {
     margin-bottom: 13px;
   }
-  main .portfolio-experience .container-fluid .experience .experience-content .first-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .company {
+  main .portfolio-experience .container-fluid .experience .experience-content .first-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .company, main .portfolio-experience .container-fluid .experience .experience-content .third-exp .company {
     margin-bottom: 30px;
-  }
-  main .portfolio-experience .container-fluid .experience .experience-content .first-exp .job, main .portfolio-experience .container-fluid .experience .experience-content .second-exp .job {
-    height: 143px;
   }
   main .portfolio-experience .container-fluid .experience .experience-content .middle-icon {
     display: block;
-    margin: 15px auto 0;
-    grid-area: 1/2/3/3;
+    margin: 10px auto 0;
+    grid-area: 1/2/4/3;
   }
   main .portfolio-experience .container-fluid .experience .experience-content .first-exp {
     grid-area: 1/3/2/4;
@@ -1039,6 +1036,12 @@ footer .container-fluid p a {
   main .portfolio-experience .container-fluid .experience .experience-content .second-exp {
     grid-area: 2/1/3/2;
     text-align: right;
+  }
+  main .portfolio-experience .container-fluid .experience .experience-content .third-exp {
+    grid-area: 3/3/4/4;
+  }
+  main .portfolio-experience .container-fluid .experience .experience-content .third-exp .year {
+    text-align: left;
   }
   main .contact {
     height: 402px;
@@ -1206,7 +1209,7 @@ footer .container-fluid p a {
     padding-top: 511px;
   }
   main .portfolio-experience {
-    height: 2136px;
+    height: 2744px;
     background-position: 50% 25%;
   }
   main .portfolio-experience .container-fluid {
