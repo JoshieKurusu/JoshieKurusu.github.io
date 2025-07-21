@@ -21,7 +21,7 @@ This portfolio reflects my continued growth as a front-end developer, featuring 
 - Formspree - handles contact form submissions
 
 # 💡 Inspiration
-This version of my portfolio showcases refined UI skills and a deeper understanding of scalable code architecture. My goal is to create meaningful digital experiences that balance function, clarity, and beauty—while continuously pushing the boundaries of responsive design.
+This version of my portfolio showcases refined UI skills and a deeper understanding of scalable code architecture. My goal is to create meaningful digital experiences that balance function, clarity, and beauty — while continuously pushing the boundaries of responsive design.
 
 # 🔗 Live Demo
 https://joshmarveycruz.netlify.app/index.html
