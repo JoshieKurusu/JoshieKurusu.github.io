@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: default-src 'self'; img-src 'self' https://images.unsplash.com https://cdn.jsdelivr.net; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://api.netlify.com
+  Content-Security-Policy: default-src 'self'; img-src 'self' https://images.unsplash.com https://cdn.jsdelivr.net; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.cdnfonts.com https://db.onlinewebfonts.com; font-src 'self' https://fonts.cdnfonts.com https://db.onlinewebfonts.com; connect-src 'self' https://api.netlify.com
